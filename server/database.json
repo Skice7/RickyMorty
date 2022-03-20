@@ -1,0 +1,58 @@
+{
+  "characters": [
+    {
+      "name": "Rick Sanchez",
+      "gender": "Male",
+      "species": "Human",
+      "origin": "Earth",
+      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      "status": true,
+      "id": 1
+    },
+    {
+      "name": "Morty Smith",
+      "gender": "Male",
+      "species": "Human",
+      "origin": "Citadel of Ricks",
+      "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+      "status": true,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Summer Smith",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Female",
+      "origin": "Earth (Replacement Dimension)",
+      "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+    },
+    {
+      "name": "Beth Smith",
+      "gender": "Female",
+      "species": "Human",
+      "origin": "Earth (Replacement Dimension)",
+      "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+      "status": "Alive",
+      "id": 4
+    },
+    {
+      "name": "Jerry Smith",
+      "gender": "Male",
+      "species": "Human",
+      "origin": "Earth (Replacement Dimension)",
+      "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+      "status": false,
+      "id": 5
+    },
+    {
+      "name": "Montapuercos",
+      "gender": "Masculino",
+      "species": "Hooog rideeer",
+      "origin": "?",
+      "image": "http://pm1.narvii.com/6302/a5794d940c05468a0e2885ba137062d4111c0f70_00.jpg",
+      "status": false,
+      "id": 6
+    }
+  ]
+}

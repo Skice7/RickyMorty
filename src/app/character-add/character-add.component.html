@@ -1,0 +1,35 @@
+<div class="container">
+  <h1>
+    ADD CHARACTER
+  </h1>
+  <div class="submit-form">
+    <div *ngIf="!submitted">
+      <div class="mb-3">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" [(ngModel)]="character.name" required>
+      </div>
+      <div class="form-group my-2">
+        <label for="gender">Gender</label>
+        <input type="text" class="form-control" [(ngModel)]="character.gender" required>
+      </div>
+      <div class="form-group my-2">
+        <label for="species">Species</label>
+        <input type="text" class="form-control" [(ngModel)]="character.species" required>
+      </div>
+      <div class="form-group my-2">
+        <label for="origin">Origin</label>
+        <input type="text" class="form-control" [(ngModel)]="character.origin" required>
+      </div>
+      <div class="form-group my-2">
+        <label for="image">Image</label>
+        <input type="text" placeholder="https://rickandmortyapi.com/api/character/avatar/1.jpeg" class="form-control" [(ngModel)]="character.image" required >
+      </div>
+
+      <button (click)="saveCharacters()" class="btn btn-primary">Enviar</button>
+    </div>
+    <div *ngIf="submitted">
+      <h3>Se ha añadido el personaje</h3>
+      <button (click)="newCharacter()" class="btn btn-success btncenter">Añadir</button>
+    </div>
+  </div>
+</div>

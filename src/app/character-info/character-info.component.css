@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+
+.card{
+  width: 1000px;
+  height: 500px;
+  top: 50px;
+  left: 400px;
+  text-align: center;
+
+
+}
+.margen{
+margin-right: 15px;
+}
